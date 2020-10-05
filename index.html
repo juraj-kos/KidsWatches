@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Watch Configurator</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<canvas id="renderCanvas" touch-action="none"></canvas>
+
+		<div class="container left" id="container-left">
+			<div class="colors-title">WATCH FACE COLOR</div>
+			<div class="color-buttons" id="FaceBack">
+				<div class="c1"></div>
+				<div class="c2"></div>
+				<div class="c3"></div>
+				<div class="c4"></div>
+				<div class="c5"></div>
+				<div class="c6"></div>
+				<div class="c7"></div>
+				<div class="c8"></div>
+			</div>
+			<div class="colors-title">INNER NUMBERS COLOR</div>
+			<div class="color-buttons" id="FaceLetters">
+				<div class="c1"></div>
+				<div class="c2"></div>
+				<div class="c3"></div>
+				<div class="c4"></div>
+				<div class="c5"></div>
+				<div class="c6"></div>
+				<div class="c7"></div>
+				<div class="c8"></div>
+			</div>
+			<div class="colors-title">BEZEL COLOR</div>
+			<div class="color-buttons" id="Bezel">
+				<div class="c1"></div>
+				<div class="c2"></div>
+				<div class="c3"></div>
+				<div class="c4"></div>
+				<div class="c5"></div>
+				<div class="c6"></div>
+				<div class="c7"></div>
+				<div class="c8"></div>
+			</div>
+			<div class="colors-title">BEZEL NUMBERS COLOR</div>
+			<div class="color-buttons" id="BezelLetters">
+				<div class="c1"></div>
+				<div class="c2"></div>
+				<div class="c3"></div>
+				<div class="c4"></div>
+				<div class="c5"></div>
+				<div class="c6"></div>
+				<div class="c7"></div>
+				<div class="c8"></div>
+			</div>
+			<div class="separator"></div>
+			<div class="colors-title">INNER STRAP</div>
+			<div class="color-buttons" id="StrapInner">
+				<div class="c1"></div>
+				<div class="c2"></div>
+				<div class="c3"></div>
+				<div class="c4"></div>
+				<div class="c5"></div>
+				<div class="c6"></div>
+				<div class="c7"></div>
+				<div class="c8"></div>
+			</div>
+			<div class="colors-title">OUTER STRAP</div>
+			<div class="color-buttons" id="StrapOuter">
+				<div class="c1"></div>
+				<div class="c2"></div>
+				<div class="c3"></div>
+				<div class="c4"></div>
+				<div class="c5"></div>
+				<div class="c6"></div>
+				<div class="c7"></div>
+				<div class="c8"></div>
+			</div>
+		</div>
+
+		<div class="container right">
+			<div class="kids-watches">KIDS WATCHES</div>
+			<div class="watch-name">Mickey Mouse Time Teacher Watch</div>
+			<div class="sku-number">SKU: WDS000098</div>
+			<div class="price">$42.99</div>
+			<div class="separator"></div>
+			<div class="tags">
+				Disney Mickey Mouse Boys' Stainless Steel Time Teacher Watch,
+				Red Bezel, Red Hook and Loop Nylon Strap with Black Backing
+			</div>
+			<div class="specifications">Specifications</div>
+			<table class="table">
+				<tr>
+					<td>COLLECTION</td>
+					<td>Mickey</td>
+				</tr>
+				<tr>
+					<td>LICENSE</td>
+					<td>Disney</td>
+				</tr>
+				<tr>
+					<td>WATCH SPEC</td>
+					<td>
+						Case: 32mm Plastic Case<br />
+						Strap: 16mm Nylon Hook and Loop Strap
+					</td>
+				</tr>
+			</table>
+			<div class="quantity-container">
+				<div>-</div>
+				<div>1</div>
+				<div>+</div>
+			</div>
+
+			<div class="button">ADD TO CART</div>
+			<div class="button green">BUY IT NOW</div>
+		</div>
+
+		<script src="babylon.js"></script>
+		<script src="babylon.glTF2FileLoader.min.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>

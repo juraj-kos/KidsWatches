@@ -1,0 +1,184 @@
+body {
+	margin: 0;
+}
+
+canvas {
+	display: block;
+	width: 100vw;
+	height: 100vh;
+}
+
+.container {
+	position: absolute;
+	width: 350px;
+	padding: 20px;
+
+	background-color: #9b9b9b60;
+
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #1c1b1b;
+	letter-spacing: 0.2em;
+	text-align: left;
+}
+
+.right {
+	right: 50px;
+	top: 50px;
+}
+
+.left {
+	left: 50px;
+	top: 50px;
+}
+
+.kids-watches {
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+.watch-name {
+	line-height: 1.65;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+.sku-number {
+	font-size: 15px;
+	color: #6a6a6a;
+}
+
+.price {
+	font-size: 19px;
+	color: #6a6a6a;
+	margin-top: 15px;
+}
+
+.separator {
+	margin: 24px 0;
+	padding-top: 24px;
+	border-top: 1px solid #ddd;
+}
+
+.tags {
+	font-weight: 400;
+	font-style: normal;
+	color: #1c1b1b;
+	line-height: 1.25;
+	letter-spacing: 1.5px;
+	word-spacing: 4px;
+	font-size: 14px;
+}
+
+.specifications {
+	margin: 2.2em 0 1.2em;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+td {
+	padding: 18px 10px;
+	padding-left: 10px;
+	border-bottom: 1px solid #ddd;
+	font-size: 12px;
+}
+
+td:first-child {
+	border-right: 1px solid #ddd;
+}
+
+tr:last-child td {
+	border-bottom: none;
+}
+
+.quantity-container {
+	align-items: center;
+	border: 1px solid #ddd;
+	white-space: nowrap;
+	display: inline-flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+
+.quantity-container div {
+	margin: 10px 20px 10px 20px;
+}
+
+.button {
+	padding: 14px 28px 14px 28px;
+	line-height: normal;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: 0.2em;
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #6a6a6a;
+	border: 1px solid rgba(106, 106, 106, 0.2);
+	margin: 20px 0 10px 0;
+	background-color: #ddd;
+}
+
+.green {
+	background-color: #13b58e;
+}
+
+.colors-title {
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+.color-buttons {
+	display: inline-flex;
+	flex-direction: row;
+	margin-bottom: 25px;
+	padding: 5px;
+	border: 2px solid rgba(197, 197, 197, 0.712);
+	border-radius: 10px;
+}
+
+.color-buttons div {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid rgba(106, 106, 106, 0.2);
+	margin-right: 10px;
+}
+
+.color-buttons div:hover {
+	border: 1px solid rgba(252, 252, 252, 0.877);
+}
+
+.c1 {
+	background-color: #f4f4f4;
+}
+
+.c2 {
+	background-color: #f3dce4;
+}
+
+.c3 {
+	background-color: #f43642;
+}
+
+.c4 {
+	background-color: #92ff53;
+}
+
+.c5 {
+	background-color: #29a833;
+}
+
+.c6 {
+	background-color: #35c3fc;
+}
+
+.c7 {
+	background-color: #1366b3;
+}
+
+.c8 {
+	background-color: #363636;
+}
